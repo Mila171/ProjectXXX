@@ -23,9 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Проект"
-        android:textColor="@color/white"
-        android:textSize="39dp"
+        android:text="@string/project1"
+        style="@style/заглавие"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -54,9 +53,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Проект"
-                android:textColor="@color/white"
-                android:textSize="22dp"
+                android:text="@string/project2"
+                style="@style/текст_белый"
                 android:layout_marginHorizontal="20dp"/>
 
             <LinearLayout
@@ -71,7 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginHorizontal="20dp"
-                    android:text="Дизайн"
+                    android:text="@string/project3"
+                    style="@style/текст_темный"
                     android:textColor="@color/main" />
 
                 <TextView

@@ -1,3 +1,98 @@
 <resources>
-    <string name="app_name">ProjectXXX</string>
+    <string name="app_name">INSIDER</string>
+    <string name="intro1">Добро пожаловать!</string>
+    <string name="intro2">Email</string>
+    <string name="intro3">Пароль</string>
+    <string name="intro4">Запомнить меня</string>
+    <string name="intro5">Забыли пароль?</string>
+    <string name="intro6">Войти</string>
+    <string name="intro7">Нет аккаунта?</string>
+    <string name="intro8">Зарегистрироваться</string>
+
+    <string name="расписание">Расписание</string>
+    <string name="week1">ПН</string>
+    <string name="week2">ВТ</string>
+    <string name="week3">СР</string>
+    <string name="week4">ЧТ</string>
+    <string name="week5">ПТ</string>
+    <string name="week6">СБ</string>
+    <string name="week7">ВС</string>
+    <string name="time1">8:00</string>
+    <string name="time2">9:00</string>
+    <string name="time3">10:00</string>
+    <string name="time4">10:50</string>
+    <string name="time5">11:00</string>
+    <string name="time6">11:20</string>
+    <string name="time7">19:00</string>
+    <string name="schedule_1">Просуться и позавтракать.</string>
+    <string name="schedule_2">Переодеться и поехать в колледж.</string>
+    <string name="schedule_3">Обсудить вопрос с Администрацией.</string>
+    <string name="schedule_4">Пары и дз.</string>
+
+    <string name="new_task1">Новая задача:</string>
+    <string name="new_task2">Название</string>
+    <string name="new_task3">Описание</string>
+    <string name="new_task4">Время</string>
+    <string name="new_task5">Создать</string>
+
+    <string name="set_time1">Установить время:</string>
+    <string name="set_time2">AM</string>
+    <string name="set_time3">PM</string>
+    <string name="set_time4">12</string>
+    <string name="set_time5">01</string>
+    <string name="set_time6">02</string>
+    <string name="set_time7">03</string>
+    <string name="set_time8">04</string>
+    <string name="set_time9">22</string>
+    <string name="set_time10">23</string>
+    <string name="set_time11">24</string>
+    <string name="set_time12">25</string>
+    <string name="set_time13">26</string>
+
+    <string name="profile1">Профиль</string>
+    <string name="profile2">Имя Фамилия</string>
+    <string name="profile3">Редактировать профиль</string>
+    <string name="profile4">Достижения</string>
+    <string name="profile5">Друзья</string>
+    <string name="profile6">Командный игрок</string>
+    <string name="profile7">Состоять в 3 командах</string>
+    <string name="profile8">1/3</string>
+    <string name="profile9">Шутник</string>
+    <string name="profile10">Отметить задание цветами</string>
+    <string name="profile11">0/1</string>
+    <string name="profile12">Billy Herrington</string>
+    <string name="profile13">SEST-69-91</string>
+    <string name="profile14">Boss of the gym, mugalim, get your ass here, loves college boys</string>
+
+    <string name="QR1">QR Код</string>
+    <string name="QR2">Попросите вашего друга отсканировать его</string>
+    <string name="QR3">Закрыть</string>
+
+    <string name="settings1">Настройки</string>
+    <string name="settings2">Язык</string>
+    <string name="settings3">Русский</string>
+    <string name="settings4">Тема</string>
+    <string name="settings5">Темная</string>
+    <string name="settings6">Уведомления</string>
+    <string name="settings7">Все, кроме Програмного Об...</string>
+    <string name="settings8">Черный список</string>
+    <string name="settings9">Марк Вульф</string>
+    <string name="settings10">Вход</string>
+    <string name="settings11">По смс</string>
+    <string name="settings12">Безопасность</string>
+    <string name="settings13">О приложении</string>
+    <string name="settings14">Версия 2.28</string>
+    <string name="settings15">Выход</string>
+
+    <string name="video1">Видео</string>
+    <string name="video2">5:32</string>
+    <string name="video3">Как быть организованнее?</string>
+    <string name="video4">Автор</string>
+
+    <string name="project1">Проект</string>
+    <string name="project2">Название</string>
+    <string name="project3">Дизайн</string>
+    <string name="project4">10:00</string>
+    <string name="project5">Лого</string>
+    <string name="project6">13:00</string>
 </resources>
