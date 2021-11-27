@@ -96,4 +96,13 @@
     <string name="project5">Лого</string>
     <string name="project6">13:00</string>
 
+    <string name="diary">Diary</string>
+
+    <string name="task1">Задача</string>
+    <string name="task2">Просуться и позавтракать.</string>
+    <string name="task3">Нужно встать умытся подготовить вещи накрыть стол и позавтракать</string>
+    <string name="task4">Время</string>
+    <string name="task5">Сохранить</string>
+    <string name="task6">Удалить</string>
+
 </resources>
