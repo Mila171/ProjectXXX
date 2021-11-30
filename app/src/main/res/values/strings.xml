@@ -29,7 +29,7 @@
     <string name="schedule_3">Обсудить вопрос с Администрацией.</string>
     <string name="schedule_4">Пары и дз.</string>
 
-    <string name="new_task1">Новая задача:</string>
+    <string name="new_task1"><u>Новая задача:</u></string>
     <string name="new_task2">Название</string>
     <string name="new_task3">Описание</string>
     <string name="new_task4">Время</string>
@@ -104,5 +104,6 @@
     <string name="task4">Время</string>
     <string name="task5">Сохранить</string>
     <string name="task6">Удалить</string>
+    <string name="task7">edit</string>
 
 </resources>

@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Schedule"
+        android:text="@string/расписание"
         android:textColor="@color/white"
         android:textSize="39dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -418,13 +418,13 @@
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginHorizontal="35dp"
-                app:srcCompat="@drawable/video" />
+                app:srcCompat="@drawable/video2" />
 
             <ImageView
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginHorizontal="20dp"
-                app:srcCompat="@drawable/user" />
+                app:srcCompat="@drawable/user__1_" />
         </LinearLayout>
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 </androidx.constraintlayout.widget.ConstraintLayout>
