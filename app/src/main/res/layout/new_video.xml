@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/video2">
 
     <LinearLayout
@@ -11,16 +11,16 @@
         android:background="@drawable/shape5"
         android:gravity="center"
         android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/new_task1"
+            android:text="@string/new_video1"
             android:textColor="@color/white"
             android:textSize="20sp" />
 
@@ -28,42 +28,52 @@
             android:layout_width="315dp"
             android:layout_height="55dp"
             android:layout_marginTop="10dp"
-            android:paddingLeft="15dp"
             android:background="@drawable/shape4"
             android:inputType="text"
-            android:text="@string/new_task2"
-            android:textColor="@color/unknown"
-            tools:ignore="Autofill,LabelFor" />
+            android:paddingLeft="15dp"
+            android:text="@string/new_video2"
+            android:textColor="@color/unknown" />
 
         <EditText
-            android:paddingLeft="15dp"
             android:layout_width="315dp"
             android:layout_height="110dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/shape4"
             android:inputType="text"
-            android:text="@string/new_task3"
-            android:textColor="@color/unknown"
-            tools:ignore="Autofill,LabelFor" />
-
-        <EditText
             android:paddingLeft="15dp"
-            android:layout_width="315dp"
-            android:layout_height="55dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/shape4"
-            android:inputType="time"
-            android:text="@string/new_task4"
-            android:textColor="@color/unknown"
-            tools:ignore="Autofill,LabelFor" />
+            android:text="@string/new_video3"
+            android:textColor="@color/unknown" />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:contentDescription="@string/new_video5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/group_20" />
+
+            <EditText
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape4"
+                android:inputType="time"
+                android:paddingLeft="15dp"
+                android:text="@string/new_video4"
+                android:textColor="@color/unknown" />
+        </LinearLayout>
 
         <TextView
             android:layout_width="315dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/shape6"
+            android:background="@drawable/shape2"
             android:gravity="center"
-            android:text="@string/new_task5"
+            android:text="@string/new_video5"
             android:textColor="@color/strange"
             android:textSize="28sp" />
     </LinearLayout>

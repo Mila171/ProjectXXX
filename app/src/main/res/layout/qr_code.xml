@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/profile">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="505dp"
+        android:background="@drawable/shape5"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/QR1"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/QR1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image_2"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="@string/QR2"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:layout_width="315dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/shape2"
+            android:gravity="center"
+            android:text="@string/QR3"
+            android:textColor="@color/strange"
+            android:textSize="28sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
