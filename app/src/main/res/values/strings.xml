@@ -111,5 +111,9 @@
     <string name="new_video3">Описание</string>
     <string name="new_video4">Email</string>
     <string name="new_video5">Создать</string>
+    <string name="todo">TODO</string>
+    <string name="plusbutton">plusbutton</string>
+    <string name="video_icon">video_icon</string>
+    <string name="profile_icon">profile_icon</string>
 
 </resources>
