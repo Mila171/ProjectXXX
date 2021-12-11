@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/schedule">
+    android:background="@drawable/schedule"
+    tools:context=".New_task">
 
     <LinearLayout
         android:layout_width="350dp"
@@ -59,6 +60,7 @@
             tools:ignore="Autofill,LabelFor" />
 
         <TextView
+            android:id="@+id/create"
             android:layout_width="315dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"

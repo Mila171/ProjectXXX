@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/main">
+    android:background="@color/main"
+    tools:context=".Calendar">
     
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/tb1"
@@ -22,6 +23,7 @@
             tools:ignore="UseCompoundDrawables">
             
             <ImageView
+                android:id="@+id/left"
                 android:contentDescription="@string/settings15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

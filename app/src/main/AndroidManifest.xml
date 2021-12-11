@@ -10,10 +10,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectXXX">
         <activity
+            android:name=".Calendar"
+            android:exported="true" />
+        <activity
+            android:name=".Video"
+            android:exported="true" />
+        <activity
+            android:name=".Task"
+            android:exported="true" />
+        <activity
+            android:name=".Settings"
+            android:exported="true" />
+        <activity
+            android:name=".Qr_code"
+            android:exported="true" />
+        <activity
+            android:name=".New_video"
+            android:exported="true" />
+        <activity
+            android:name=".New_task"
+            android:exported="true" />
+        <activity
+            android:name=".Profile_friends"
+            android:exported="true" />
+        <activity
+            android:name=".Profile_achievements"
+            android:exported="true" />
+        <activity
+            android:name=".Project"
+            android:exported="true" />
+        <activity
             android:name=".Profile"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Schedule"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

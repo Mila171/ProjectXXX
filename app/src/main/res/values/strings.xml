@@ -130,5 +130,6 @@
     <string name="calendar">calendar</string>
     <string name="description_task1">Просуться и позавтракать.</string>
     <string name="icon">icon</string>
+    <string name="add_video">Добавить видео</string>
 
 </resources>
