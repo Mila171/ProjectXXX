@@ -130,9 +130,9 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_marginTop="10dp"
-                android:background="@color/mystery" />
+                android:background="@color/white" />
         </LinearLayout>
 
         <LinearLayout
@@ -152,9 +152,9 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="1dp"
                 android:layout_marginTop="10dp"
-                android:background="@color/white" />
+                android:background="@color/mystery" />
         </LinearLayout>
     </LinearLayout>
 
@@ -168,62 +168,130 @@
         app:layout_constraintTop_toBottomOf="@id/linearLayout2">
 
         <LinearLayout
-            android:layout_width="375dp"
-            android:layout_height="180dp"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
             android:layout_marginTop="50dp"
-            android:background="@drawable/vector"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:contentDescription="@string/profile6"
+                android:src="@drawable/group_12" />
 
             <LinearLayout
-                android:layout_width="320dp"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="55dp"
-                    android:layout_height="55dp"
-                    android:src="@drawable/ellipse_12" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile6"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile7"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:orientation="vertical">
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ProgressBar
+                        android:id="@+id/progress"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="205dp"
+                        android:layout_height="wrap_content"
+                        android:max="100"
+                        android:progress="33"
+                        android:theme="@style/ProgressBarStyle" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/profile12"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/profile8"
                         android:textColor="@color/white"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/profile13"
-                        android:textColor="@color/anonymous"
-                        android:textSize="15sp" />
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
+        </LinearLayout>
 
-            <TextView
-                android:layout_width="320dp"
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:background="@drawable/rectangle_20"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="@string/profile14"
-                android:textColor="@color/white"
-                android:textSize="16sp" />
+                android:layout_marginLeft="10dp"
+                android:contentDescription="@string/profile6"
+                android:src="@drawable/group_14" />
+
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile9"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile10"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="205dp"
+                        android:layout_height="wrap_content"
+                        android:max="100"
+                        android:progress="0"
+                        android:theme="@style/ProgressBarStyle" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/profile11"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:background="@drawable/navbar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        android:layout_height="80dp"
+        android:background="@drawable/shape5"
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -236,32 +304,40 @@
             app:layout_constraintStart_toStartOf="parent">
 
             <ImageView
+                android:id="@+id/schedule"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginHorizontal="20dp"
-                android:contentDescription="@string/diary"
-                app:srcCompat="@drawable/diary2" />
+                app:srcCompat="@drawable/diary" />
 
             <ImageView
+                android:id="@+id/project"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginHorizontal="35dp"
-                android:contentDescription="@string/расписание"
                 app:srcCompat="@drawable/edit_layout" />
 
             <ImageView
+                android:id="@+id/plus_button"
+                tools:ignore="VectorDrawableCompat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/plus_button" />
+
+            <ImageView
+                android:id="@+id/video"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginHorizontal="35dp"
-                android:contentDescription="@string/video1"
-                app:srcCompat="@drawable/video3" />
+                app:srcCompat="@drawable/video" />
 
             <ImageView
+                android:id="@+id/profile"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginHorizontal="20dp"
-                android:contentDescription="@string/profile1"
-                app:srcCompat="@drawable/user" />
+                app:srcCompat="@drawable/user__1_" />
         </LinearLayout>
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

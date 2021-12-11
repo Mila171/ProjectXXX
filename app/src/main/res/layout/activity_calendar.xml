@@ -29,7 +29,7 @@
                 android:layout_marginLeft="50dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/расписание"
+                android:text="@string/schedule"
                 android:textSize="40sp"
                 android:textColor="@color/white"/>
         </LinearLayout>
@@ -54,4 +54,58 @@
             android:dateTextAppearance="@style/CalenderViewDateCustomText"
             android:weekDayTextAppearance="@style/CalenderViewWeekCustomText" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/shape5"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/schedule"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="20dp"
+                app:srcCompat="@drawable/diary" />
+
+            <ImageView
+                android:id="@+id/project"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="35dp"
+                app:srcCompat="@drawable/edit_layout" />
+
+            <ImageView
+                android:id="@+id/plus_button"
+                tools:ignore="VectorDrawableCompat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/plus_button" />
+
+            <ImageView
+                android:id="@+id/video"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="35dp"
+                app:srcCompat="@drawable/video" />
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="20dp"
+                app:srcCompat="@drawable/user__1_" />
+        </LinearLayout>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
