@@ -83,7 +83,8 @@
             android:text="@string/video4"
             style="@style/текст_темный"
             android:textSize="10sp"
-            android:layout_marginHorizontal="15dp"/>
+            android:layout_marginHorizontal="15dp"
+            tools:ignore="SmallSp" />
     </LinearLayout>
 
     <Button

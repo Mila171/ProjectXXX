@@ -35,7 +35,8 @@
             android:inputType="text"
             android:text="@string/new_task2"
             android:textColor="@color/unknown"
-            tools:ignore="Autofill,LabelFor" />
+            tools:ignore="Autofill,LabelFor,RtlSymmetry"
+            android:paddingStart="15dp" />
 
         <EditText
             android:paddingLeft="15dp"
@@ -46,7 +47,8 @@
             android:inputType="text"
             android:text="@string/new_task3"
             android:textColor="@color/unknown"
-            tools:ignore="Autofill,LabelFor" />
+            tools:ignore="Autofill,LabelFor,RtlSymmetry"
+            android:paddingStart="15dp" />
 
         <EditText
             android:paddingLeft="15dp"
@@ -57,7 +59,8 @@
             android:inputType="time"
             android:text="@string/new_task4"
             android:textColor="@color/unknown"
-            tools:ignore="Autofill,LabelFor" />
+            tools:ignore="Autofill,LabelFor,RtlSymmetry"
+            android:paddingStart="15dp" />
 
         <TextView
             android:id="@+id/create"
