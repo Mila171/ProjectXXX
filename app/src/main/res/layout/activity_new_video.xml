@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/video2">
@@ -32,7 +33,10 @@
             android:inputType="text"
             android:paddingLeft="15dp"
             android:text="@string/new_video2"
-            android:textColor="@color/unknown" />
+            android:textColor="@color/unknown"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor,RtlSymmetry"
+            android:paddingStart="15dp" />
 
         <EditText
             android:layout_width="315dp"
@@ -42,7 +46,10 @@
             android:inputType="text"
             android:paddingLeft="15dp"
             android:text="@string/new_video3"
-            android:textColor="@color/unknown" />
+            android:textColor="@color/unknown"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor,RtlSymmetry"
+            android:paddingStart="15dp" />
 
         <LinearLayout
             android:layout_width="350dp"
@@ -64,7 +71,10 @@
                 android:inputType="time"
                 android:paddingLeft="15dp"
                 android:text="@string/new_video4"
-                android:textColor="@color/unknown" />
+                android:textColor="@color/unknown"
+                android:paddingStart="15dp"
+                tools:ignore="LabelFor,RtlSymmetry"
+                android:importantForAutofill="no" />
         </LinearLayout>
 
         <TextView

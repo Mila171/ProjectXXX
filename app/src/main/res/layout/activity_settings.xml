@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/main">
@@ -17,7 +18,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="bottom">
+            android:gravity="bottom"
+            tools:ignore="UseCompoundDrawables">
 
             <ImageView
                 android:contentDescription="@string/settings15"
@@ -31,7 +33,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/settings1"
                 android:textSize="40sp"
-                android:textColor="@color/white"/>
+                android:textColor="@color/white"
+                android:layout_marginStart="50dp" />
         </LinearLayout>
     </androidx.appcompat.widget.Toolbar>
 
@@ -48,7 +51,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginStart="30dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -70,7 +74,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginStart="30dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -98,7 +103,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginStart="30dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -120,7 +126,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginStart="30dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -142,7 +149,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginStart="30dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -170,7 +178,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginStart="30dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -191,7 +200,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginStart="30dp">
 
             <TextView
                 android:layout_width="wrap_content"

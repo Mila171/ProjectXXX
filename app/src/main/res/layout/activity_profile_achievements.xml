@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/main">
 
     <androidx.appcompat.widget.Toolbar
@@ -42,7 +43,8 @@
                 android:layout_marginRight="15dp"
                 android:gravity="center"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginEnd="15dp">
 
                 <ImageView
                     android:layout_width="32dp"
@@ -55,7 +57,8 @@
                     android:layout_height="32dp"
                     android:layout_marginLeft="10dp"
                     android:contentDescription="@string/QR1"
-                    android:src="@drawable/union" />
+                    android:src="@drawable/union"
+                    android:layout_marginStart="10dp" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.appcompat.widget.Toolbar>
@@ -75,13 +78,15 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
             android:contentDescription="@string/profile1"
-            android:src="@drawable/ellipse_12" />
+            android:src="@drawable/ellipse_12"
+            android:layout_marginStart="25dp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginStart="25dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -179,7 +184,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:contentDescription="@string/profile6"
-                android:src="@drawable/group_12" />
+                android:src="@drawable/group_12"
+                android:layout_marginStart="10dp" />
 
             <LinearLayout
                 android:layout_width="240dp"
@@ -222,7 +228,8 @@
                         android:text="@string/profile8"
                         android:textColor="@color/white"
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
@@ -239,7 +246,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:contentDescription="@string/profile6"
-                android:src="@drawable/group_14" />
+                android:src="@drawable/group_14"
+                android:layout_marginStart="10dp" />
 
             <LinearLayout
                 android:layout_width="240dp"
@@ -281,7 +289,8 @@
                         android:text="@string/profile11"
                         android:textColor="@color/white"
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

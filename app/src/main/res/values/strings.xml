@@ -115,5 +115,9 @@
     <string name="plusbutton">plusbutton</string>
     <string name="video_icon">video_icon</string>
     <string name="profile_icon">profile_icon</string>
+    <string name="images_profile">images_profile</string>
+    <string name="logo">Лого</string>
+    <string name="_13_00">13:00</string>
+    <string name="video">Видео</string>
 
 </resources>

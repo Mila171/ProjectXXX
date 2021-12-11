@@ -22,9 +22,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Видео"
+        android:text="@string/video"
         android:textColor="@color/white"
-        android:textSize="39dp"
+        android:textSize="39sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -59,7 +59,8 @@
                 app:srcCompat="@drawable/component_16"
                 android:layout_gravity="center"
                 android:layout_margin="30dp"
-                tools:ignore="VectorDrawableCompat" />
+                tools:ignore="VectorDrawableCompat"
+                android:contentDescription="@string/video_icon" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -73,14 +74,14 @@
             android:layout_height="wrap_content"
             android:text="@string/video3"
             style="@style/текст_темный"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:layout_marginHorizontal="15dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/video4"
             style="@style/текст_темный"
-            android:textSize="10dp"
+            android:textSize="10sp"
             android:layout_marginHorizontal="15dp"/>
     </LinearLayout>
 
